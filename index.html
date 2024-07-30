@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="left">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
+    <div class="right">
+      <div class="right-top">
+        <strong>Try it free 7 days <span>then $20/mo. thereafter</span></strong>
+      </div>
+      <div class="right-bottom">
+        <form id="form">
+          <input class="form-btn" id="first-name" type="text" placeholder="First Name">
+          <span class="error-msg" id="first-name-error"></span>
+          <input class="form-btn" id="last-name" type="text" placeholder="Last Name">
+          <span class="error-msg" id="last-name-error"></span>
+          <input class="form-btn" id="email" type="text" placeholder="Email Address">
+          <span class="error-msg" id="email-error"></span>
+          <input class="form-btn" id="password" type="password" placeholder="Password">
+          <span class="error-msg" id="password-error"></span>
+          <input class="submit form-btn" type="submit" value="Claim your free trial">
+        </form>
+        <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
+      </div>
+    </div>
+  </div> 
+  <script src="script.js"></script>
+</body>
+</html>
